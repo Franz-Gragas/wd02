@@ -1,0 +1,46 @@
+
+<style>
+
+p strong {
+    color: blue;
+}
+p i {
+    color: tomato;
+}
+ul > li:nth-child(3) {
+    color: turquoise;
+} 
+ul > li:nth-child(4) {
+    color: darkblue;
+} 
+ul > li:nth-child(5) {
+    color: green;
+} 
+#mydiv {
+    font-style: italic;
+}
+
+
+</style>
+
+
+
+
+
+     <body> 
+
+        <p>This is a  paragraph</p>
+        <p>Here is a paragraph with some <strong>bold text</strong> in it.</p>
+        <p>Here us a paragraph with some <i>italic text</i> in it.</p>
+
+        <ul>
+            <li>This is a list element 1.</li>
+            <li>This is a list element 2 with <strong style="color: gray;" >bold text</strong>.</li>
+            <li>This is a list element 3.</li>
+            <li>This is a list element 4.</li>
+            <li>This is a list element 5.</li>
+        </ul>
+
+<div id="Mydiv">
+    This is a div with the ID of "mydiv".
+</div>
